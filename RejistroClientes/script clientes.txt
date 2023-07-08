@@ -1,0 +1,25 @@
+create database clientes;
+use clientes;
+
+create table clientes(
+
+ced_cli int not null,
+nom_cli varchar(45) not null,
+ape_cli varchar(45) not null,
+dir_cli varchar(100) not null,
+corr_cli varchar(60) not null,
+tel_cli varchar(12) not null,
+
+primary key(ced_cli)
+);
+
+
+insert into clientes values(1098457689,"Juan","Gomez","calle 12 12-10","juan@correo.com",3254562898);
+insert into clientes values(1095862458,"Maria","Perez","calle 2 10-10","maria@correo.com",3312548898);
+insert into clientes values(105145789,"Eulogio","chacon","carrera 5 4-10","eulogio@correo.com",385458789);
+insert into clientes values(105254785,"Paulo","Rangel","calle 7 6-6","paulo@correo.com",3265485798);
+insert into clientes values(1066548957,"Pedro","Gomez", "carera 32 98-67","pedro@correo.com",385458326);
+insert into clientes values(1097548785,"Martha","aceros","avenida 3 4-90","martha@correo.com",3254562898);
+insert into clientes values(1082548569,"Julia","carrillo","calle 87 7-52","julia@correo.com",378546125);
+insert into clientes values(1094785965,"Julieta","caceres","carrera 52 78-5","julieta@correo.com",345235698);
+insert into clientes values(110254785,"Martin","palermo","avenida 78 45-25","martin@correo.com",3653256214);
